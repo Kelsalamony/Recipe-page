@@ -1,0 +1,115 @@
+body {
+    background-color: #ECDAB8;
+    width: 70%;
+
+}
+
+.parent {
+    width: 50%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 10px;
+    padding: 50px;
+    justify-content: center;
+    position: absolute;
+    left: 20%;
+}
+
+
+.top {
+
+    width: 100%;
+
+}
+
+.top img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.perepration-time {
+    background-color: #F9EBCE;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+.perepration-time-h3 {
+    color: #6C3632;
+    padding-left: 15px;
+}
+
+.ingedients-h2 {
+    color: #84593B;
+}
+
+.instructions-h2 {
+    color: #84593B;
+}
+
+.nutrition-h2 {
+    color: #84593B;
+}
+
+.font-top-h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+
+.Calories {
+
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.carbs {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.portin {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.fat {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.item-value-Calories {
+    color: red;
+}
+
+.item-value-carbs {
+    color: red;
+}
+
+.item-value-portin {
+    color: red;
+}
+
+.item-value-fat {
+    color: red;
+}
