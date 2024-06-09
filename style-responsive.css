@@ -1,0 +1,35 @@
+
+@media (max-width: 375px) {
+    body {
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    .parent {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden; 
+    }
+
+    .top img {
+        margin: 0; 
+        padding: 0; 
+        max-width: 100%; 
+        height: auto;
+    }
+
+    .font-top-h1 {
+        font-size: 18px;
+    }
+
+    .perepration-time, .ingedients, .instructions, .nutrition {
+        width: 100%;
+    }
+
+    .ingedients-sapce, .instractions-space, .p-nutrition, .item-value-Calories,
+    .item-value-carbs, .item-value-portin, .item-value-fat {
+        padding-right: 5px; 
+    }
+}
