@@ -1,5 +1,5 @@
 body {
-    background-color: #ECDAB8;
+    background-color: #F3E5D8;
     width: 70%;
 
 }
@@ -11,54 +11,123 @@ body {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    border-radius: 10px;
-    padding: 50px;
+    border-radius: 15px;
+    padding: 30px;
     justify-content: center;
     position: absolute;
-    left: 20%;
+    left: 25%;
 }
 
 
 .top {
 
     width: 100%;
+    padding-bottom: 15px;
+
+}
+
+.p-top {
+    font-family: "Outfit", sans-serif;
+    line-height: 1.5;
+    color: #3D3C3A;
 
 }
 
 .top img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
+    margin-top: 1px;
 
+
+}
+
+.font-top-h1 {
+    font-family: "Young Serif", serif;
+    font-weight: bold;
+    font-size: 30;
+    color: #3D3C3A;
 }
 
 .perepration-time {
-    background-color: #F9EBCE;
+    background-color: #FFF8FC;
     border-radius: 10px;
-    padding: 15px;
+    padding: 13px;
+    font-family: "Outfit", sans-serif;
 
 }
 
+.perepration-time-content {
+    line-height: 1.8;
+}
+
 .perepration-time-h3 {
-    color: #6C3632;
+    color: #bb8da3;
     padding-left: 15px;
+}
+
+.perepration-time-color-marker::marker {
+    color: #84593B;
+
+}
+
+.perepration-strong {
+    margin-left: 10px;
 }
 
 .ingedients-h2 {
     color: #84593B;
+    font-family: "Young Serif", serif;
+    font-weight: 70;
+    font-size: 27;
+}
+
+.ingedients-content {
+    line-height: 1.2;
+}
+
+.ingedients-color-marker::marker {
+    color: #84593B;
+}
+
+.ingedients-sapce {
+    margin-left: 10px;
+    font-family: "Outfit", sans-serif;
 }
 
 .instructions-h2 {
     color: #84593B;
+    font-family: "Young Serif", serif;
+    font-weight: 100;
+    font-size: 27;
+}
+
+.instractions-content {
+    line-height: 1.5;
+}
+
+
+
+.instractions-color-marker::marker {
+    color: #84593B;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+}
+
+.instractions-space {
+    margin-left: 10px;
+    font-family: "Outfit", sans-serif;
 }
 
 .nutrition-h2 {
     color: #84593B;
+    font-family: "Young Serif", serif;
+    font-weight: 100;
+    font-size: 27;
 }
 
-.font-top-h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+.p-nutrition {
+    font-family: "Outfit", sans-serif;
 }
-
 
 
 .Calories {
@@ -69,6 +138,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
+    font-family: "Outfit", sans-serif;
 }
 
 .carbs {
@@ -78,6 +148,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
+    font-family: "Outfit", sans-serif;
 }
 
 .portin {
@@ -87,6 +158,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
+    font-family: "Outfit", sans-serif;
 }
 
 .fat {
@@ -96,20 +168,36 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
+    font-family: "Outfit", sans-serif;
+
 }
 
 .item-value-Calories {
-    color: red;
+    color: #84593B;
+    padding-right: 150px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+
+
 }
 
 .item-value-carbs {
-    color: red;
+    color: #84593B;
+    padding-right: 150px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
 }
 
 .item-value-portin {
-    color: red;
+    color: #84593B;
+    padding-right: 150px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
 }
 
 .item-value-fat {
-    color: red;
+    color: #84593B;
+    padding-right: 150px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
 }
