@@ -1,9 +1,10 @@
 
-@media (max-width: 375px) {
+@media (max-width: 800px) {
     body {
         padding: 0;
         margin: 0;
         overflow-x: hidden;
+        background-color: white;
     }
 
     .parent {
@@ -21,7 +22,8 @@
     }
 
     .font-top-h1 {
-        font-size: 18px;
+        font-size: 32px;
+        font-weight: 100;
     }
 
     .perepration-time, .ingedients, .instructions, .nutrition {
@@ -31,5 +33,12 @@
     .ingedients-sapce, .instractions-space, .p-nutrition, .item-value-Calories,
     .item-value-carbs, .item-value-portin, .item-value-fat {
         padding-right: 5px; 
+    }
+    .top1{
+        padding: 10;
+    }
+    .top2
+    {
+        padding: 10;
     }
 }
